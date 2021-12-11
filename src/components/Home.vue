@@ -1,181 +1,57 @@
-6<template>
+<template>
+
+
     <div id="wrapper-home">
-        <!--================ Home Banner Area =================-->
-        <section class="home_banner_area">
-            <div class="banner_inner d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="banner_content d-flex flex-md-row flex-column">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================ End Home Banner Area =================-->
 
-        <!--================ Feature Area =================-->
-        <section class="feature-area section_gap_top" id="toCompany">
+        <section class="service-area section_gap_top slider spacer">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-7">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="single-feature">
-                                    <img src="../assets/img/feature/f1.png" alt="">
-                                    <h4>Rastreio</h4>
-                                    <p>
-                                        EM BREVE - Faça o Rastreio de suas encomendas aqui.
-                                    </p>
-                                    <a href="#">Rastreie sua Encomenda</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="single-feature">
-                                    <img src="../assets/img/feature/f2.png" alt="">
-                                    <h4>Dúvidas?</h4>
-                                    <p>
-                                        EM BREVE - Tire suas dúvidas com nossa equipe especializada.
-                                    </p>
-                                    <a href="#toCR" v-smooth-scroll>Entre e contato</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="single-feature">
-                                    <img src="../assets/img/feature/f4.png" alt="">
-                                    <h4>Simule a Cotação do Frete</h4>
-                                    <p>
-                                        EM BREVE - Faça aqui sua cotação de frete.
-                                    </p>
-                                    <a href="#">Simular Cotação</a>
-                                </div>
-                            </div>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+                <li data-target="#myCarousel" data-slide-to="1" ></li> 
+                <li data-target="#myCarousel" data-slide-to="2" ></li> 
+                </ol>
+                
+                <div class="carousel-inner" role="listbox">
+                    
+                    <div class="carousel-item active">
+                        <a href="#">
+                        <img class="d-block img-fluid" src="../assets/img/maktub.jpg">
+                    </a>
                         </div>
-                    </div>
+                <div class="carousel-item ">
+                        <a href="#">
+                        <img class="d-block img-fluid" src="../assets/img/eficiencia.jpg">
+                    </a>
+                        </div>
+                <div class="carousel-item ">
+                        <a href="#">
+                        <img class="d-block img-fluid" src="../assets/img/maktub24h.jpg">
+                    </a>
+                        </div>           
+                </div>
 
-                    <div class="col-lg-5 offset-md-0 col-md-12 text-left section-title-wrap mt-4 mt-lg-0">
-                        <h5>Quem Somos</h5>
-                        <h2>
-                            EXPRESSO MAKTUB
-                        </h2>
-
-                        <h4>Transportando com segurança por todo o Brasil!</h4>
-                        <p>
-						A Expresso MAKTUB é uma empresa sólida. Fundada em 1997 conta com profissionais qualificados e com ampla experiência em transporte de cargas. Sua matriz administrativa em Belo Horizonte – MG conta com unidade operacional e proporciona atendimento para todo o estado de Minas Gerais, Goiás, DF, região nordeste e sul do país, além da macrorregião de Franca – SP.
-
-						Nossas unidades de negócios em Franca – SP e Nova Serrana – MG, proporcionam atendimento em 24h para entregas de cargas originadas/recebidas em Belo Horizonte.
-
-						A Expresso MAKTUB é especialista em soluções de transporte, nosso foco é a execução de serviços expressos. 
-
-						Com uma frota monitorada 24h, especializada e pronta para atender às mais diversas necessidades de nossos clientes, oferecemos soluções em logística e distribuição de cargas.
-						Na MAKTUB você encontra atendimento personalizado por meio de estrutura própria e alianças operacionais, permitindo otimização de tempo e redução de custos nas suas operações.
-
-						Nossa equipe, tecnologia, experiência e recursos se conectam para cumprir em tempo nossa missão, para que nossos clientes possam se sentir tranquilos de que seus produtos serão transportados de forma ótima e segura ao seu destino.
-                        </p>
-                    </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
                 </div>
             </div>
         </section>
-        <!--================ End Feature Area =================-->
 
-        <!--================ About Area =================-->
-        <section class="about-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="row justify-content-center text-left section-title-wrap">
-                            <div class="col-lg-12">
-                                <h5>Sobre a Expresso MAKTUB</h5>
-                                <h2>
-                                    Algumas estatísticas e parceiros de nossos serviços prestados .
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-10">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-6 single_brand">
-                                        <img src="../assets/img/about/brand1.png" alt="">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-6 single_brand">
-                                        <img src="../assets/img/about/brand2.png" alt="">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-6 single_brand">
-                                        <img src="../assets/img/about/brand3.png" alt="">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-6 single_brand">
-                                        <img src="../assets/img/about/brand4.png" alt="">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-6 single_brand">
-                                        <img src="../assets/img/about/brand5.png" alt="">
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-6 single_brand">
-                                        <img src="../assets/img/about/brand6.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="offset-lg-1 col-lg-4">
-                        <div class="about_box">
-                            <div class="activity">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-3 col-6">
-                                        <div class="activity_box">
-                                            <div>
-                                                <img src="../assets/img/about/i1.png" alt="">
-                                            </div>
-                                            <h3><span class="counter">2500</span>+</h3>
-                                            <p>Pacotes Entregues</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-3 col-6">
-                                        <div class="activity_box">
-                                            <div>
-                                                <img src="../assets/img/about/i2.png" alt="">
-                                            </div>
-                                            <h3><span class="counter">500</span>+</h3>
-                                            <p>Clientes Satisfeitos com Nossos Serviços Prestados</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-3 col-6">
-                                        <div class="activity_box">
-                                            <div>
-                                                <img src="../assets/img/about/i3.png" alt="">
-                                            </div>
-                                            <h3><span class="counter">3</span></h3>
-                                            <p>Unidades Estratégicas Atuantes</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-3 col-6">
-                                        <div class="activity_box">
-                                            <div>
-                                                <img src="../assets/img/about/i4.png" alt="">
-                                            </div>
-                                            <h3 class="counter">5000</h3>
-                                            <p>Toneladas de Mercadorias Entregues</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================ End About Area =================-->
-
-        <!--================ Start Service Area =================-->
+       <!--================ Start Service Area =================-->
         <section class="service-area section_gap_top">
             <div class="container">
                 <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
-                        <h5 id="toService">Serviços</h5>
+                        <!--<h5 id="toService"></h5>-->
                         <h2 class="text-white">
-                    Tipos de Serviços:
+                    Serviços
                         </h2>
                     </div>
                 </div>
@@ -231,7 +107,108 @@
                 </div>
             </div>
         </section>
-        <!--================ end Service Area =================-->
+
+        <!--================ Service Area =================-->
+           
+        <!--================ End Area Rastreio =================-->
+        
+        <section class="service-area section_gap_top">
+            <div class="container">
+                <div class="row justify-content-center section-title-wrap">
+                    <div class="col-lg-12">
+                        <!--<h5 id="toService"></h5>-->
+                        <h2 class="text-white">
+                    Localize sua Carga
+                        </h2>
+                    </div>
+                </div>
+                <div class="row tracking">
+                    <div class="single-service col-lg-4 col-md-6">
+
+                        <div class="service-box">
+ 					<form name="form2" action="https://www.aguiasul.com.br/novo/redireciona.php" method="post" target="_blank"> 
+ 
+						<h3 class="text-center"><img src="../assets/img/localizar.png" alt="Localize sua carga"> Por REMETENTE: </h3>
+						<p>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Nota Fiscal N:</label>
+								<br>
+								<input type="text" name="NR2" id="NR2" required class="form-control" >
+							</div>
+						
+						<p>
+							<div class="form-group">
+								<label for="exampleInputPassword1">CNPJ do Remetente:</label>
+								<br>
+								<input type="text" maxLength=14 id="cnpj2" name="cnpj2" required class="form-control" >
+							</div>
+						
+						<p>
+							<div class="form-group" style="display:none">
+								<label for="exampleInputPassword1">Senha (Opcional)</label>
+								<br>
+								<input type="password" maxLength=58 name="chave" id="chave" class="form-control" >
+							</div>
+						
+ 
+						<input type="hidden" name="sigla_emp" value="AGS">
+						<p class="text-center">
+							<button type="submit" class="btn btn-danger btn-sm">Localizar</button>
+						</p>
+						<p>
+							<img src="../assets/img/caixa.png" class="img-fluid">
+						</p>
+
+					</form>
+                         
+                        </div>
+                    </div>
+
+                    <div class="single-service col-lg-4 col-md-6">
+                        <div class="service-box">
+						<form name="form1" action="https://ssw.inf.br/2/resultSSW_dest_nro" method="post" target="_blank">
+					
+							<h3 class="text-center"><img src="../assets/img/localizar.png" alt="Localize sua carga"> Por DESTINATÁRIO:</h3>
+							<p>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Nota Fiscal N:</label>
+									<br>
+									<input type="text" id="NR" name="NR" required class="form-control" >
+								</div>
+							
+							<p>
+								<div class="form-group">
+									<label for="exampleInputPassword1">CNPJ do Destinatário:</label>
+									<br>
+									<input type="text" maxLength=14 id="cnpjdest" name="cnpjdest" required class="form-control" >
+								</div>
+							
+							<p>
+								<div class="form-group" style="display:none">
+									<label for="exampleInputPassword1">Senha (Opcional)</label>
+									<br>
+									<input type="password" maxLength=58 id=chave name=chave class="form-control" >
+								</div>
+							
+ 
+							<p class="text-center">
+								<button type="submit" class="btn btn-danger btn-sm">Localizar</button>
+							</p>
+							<p>
+								<img src="../assets/img/caixa.png" class="img-fluid">
+							</p>
+
+						</form>   
+
+                                
+                                
+                           
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
         <!--================ Start Quote Area =================-->
         <section class="quote-area">
@@ -343,8 +320,8 @@
                                 <h2>POLÍTICA DE QUALIDADE</h2>
                                 <div>
                                     <p>
-                                    <br>"Buscar a melhoria contínua na prestação de serviço de transporte de cargas,</br>
-                                    <br>alcançando a satisfação dos clientes."</br> 
+                                    <br>"Buscar a melhoria contínua na prestação de serviço de transporte de cargas,<br>
+                                    <br>alcançando a satisfação dos clientes."<br> 
                                     </p>
                                 </div>
                                 <div class="testi_author d-flex justify-content-center align-items-center">
@@ -358,8 +335,8 @@
                                 <h2>MISSÃO</h2>
                                 <div>
                                     <p>
-                                    <br>"Prestar um serviço humanizado, com qualidade e segurança,</br>
-                                    <br>concretizando sonhos".</br> 
+                                    <br>"Prestar um serviço humanizado, com qualidade e segurança,<br>
+                                    <br>concretizando sonhos".<br> 
                                     </p>
                                 </div>
                                 <div class="testi_author d-flex justify-content-center align-items-center">
@@ -373,8 +350,8 @@
                                 <h2>VISÃO</h2>
                                 <div>
                                     <p>
-                                    <br>"Ser reconhecida pela sociedade como uma transportadora moderna, útil e acessível, usando a tecnologia</br>
-                                    <br>e inovação nos serviços."</br>
+                                    <br>"Ser reconhecida pela sociedade como uma transportadora moderna, útil e acessível, usando a tecnologia<br>
+                                    <br>e inovação nos serviços."<br>
                                     </p>
                                 </div>
                                 <div class="testi_author d-flex justify-content-center align-items-center">

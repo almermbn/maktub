@@ -350,7 +350,8 @@ ul {
 
 /* line 85, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_header.scss */
 .header_area .main_menu {
-  background: #f8f8f8;
+  background: #ffffff
+  /*#f8f8f8;*/
 }
 
 /* line 88, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_header.scss */
@@ -959,7 +960,6 @@ ul {
 /* line 149, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_home.scss */
 .service-area {
   position: relative;
-  margin-bottom: 120px;
 }
 
 @media (max-width: 991px) {

@@ -146,6 +146,12 @@
 /* Start Service Area
 =========================================================================================== */
 
+.spacer {
+    @media (max-width: 991px) {
+        margin-top: 70px;
+    }
+}
+
 .service-area {
     position: relative;
     margin-bottom: 120px;
@@ -172,7 +178,7 @@
 
 .single-service {
     .service-box {
-        background: $title-color;
+        background: #d3d7e2;
         @include transition();
         border: 1px solid rgba(#ffffff, .3);
         padding: 50px 50px 45px;
@@ -631,3 +637,19 @@
 
 /* End CTA Area css
 ============================================================================================ */
+
+.tracking {
+    justify-content: space-around;
+}
+
+.tracking-box {
+    background: #d3d7e2 !important;
+}
+
+.slider {
+    background: white !important;
+}
+
+.spacer {
+    padding: 50px 0 !important;
+}
