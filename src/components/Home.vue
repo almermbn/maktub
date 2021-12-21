@@ -10,6 +10,8 @@
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
                     <li data-target="#myCarousel" data-slide-to="1" ></li> 
                     <li data-target="#myCarousel" data-slide-to="2" ></li> 
+                    <li data-target="#myCarousel" data-slide-to="3" ></li>
+                    <li data-target="#myCarousel" data-slide-to="4" ></li>
                     </ol>
                     
                     <div class="carousel-inner" role="listbox">
@@ -27,7 +29,17 @@
                             <a href="#">
                                 <img class="d-block img-fluid" src="../assets/img/maktub24h.jpg">
                             </a>
-                        </div>           
+                        </div>   
+                        <div class="carousel-item ">
+                            <a href="#">
+                                <img class="d-block img-fluid" src="../assets/img/medicamentos.jpg">
+                            </a>
+                        </div>   
+                        <div class="carousel-item ">
+                            <a href="#">
+                                <img class="d-block img-fluid" src="../assets/img/escolha.jpg">
+                            </a>
+                        </div> 
                     </div>
 
                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -49,13 +61,13 @@
                 <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
                         <!--<h5 id="toService"></h5>-->
-                        <h2 class="text-white">
+                        <h2 id="toService" class="text-white">
                     Serviços
                         </h2>
                     </div>
                 </div>
                 <div class="row grid">
-                    <div class="single-service ">
+                    <div class="single-service">
                         <div class="thumb">
                             <img class="f-img img-fluid mx-auto" src="../assets/img/service/service1.jpg" alt="" />
                         </div>
@@ -66,6 +78,8 @@
                             <p>
                                 Dispomos de uma frota moderna para distribuição de mercadorias e atendimento nas transferência
                                 de produtos entre unidades e centros de distribuição em todos os estados da federação.
+                                <br>
+                                <br>
                             </p>
                         </div>
                     </div>
@@ -81,13 +95,17 @@
                             <p>
                                 Destinado a distribuição de mercadorias através do uso de veículos leves, que garantem a rapidez
                                 necessária para a sua operação.
-                                
-                                
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
                             </p>
                         </div>
                     </div>
 
-                    <div class="single-service ">
+                    <div class="single-service">
                         <div class="thumb">
                             <img class="f-img img-fluid mx-auto" src="../assets/img/service/service3.jpg" alt="" />
                         </div>
@@ -98,25 +116,34 @@
                             <p>
                                 Nossa expertise em distribuição assegura aos clientes de E-COMMERCE a confiabilidade e a certeza
                                 de um atendimento qualificado.
-                            
-                            
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
                             </p>
                         </div>
                     </div>
 
-                    <div class="single-service ">
+                    <div class="single-service">
                         <div class="thumb">
-                            <img class="f-img img-fluid mx-auto" src="../assets/img/service/service3.jpg" alt="" />
+                            <img class="f-img img-fluid mx-auto" src="../assets/img/service/service4.jpg" alt="" />
                         </div>
                         <div class="service-box">
                             <h3>
-                                E-COMMERCE
+                                TRANSPORTE DE MEDICAMENTOS
                             </h3>
                             <p>
-                                Nossa expertise em distribuição assegura aos clientes de E-COMMERCE a confiabilidade e a certeza
-                                de um atendimento qualificado.
-                            
-                            
+                                Possuímos toda a estrutura, segurança e licença para armazenar e transportar medicamentos.
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>                   
                             </p>
                         </div>
                     </div>
@@ -131,7 +158,9 @@
                 <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
                         <!--<h5 id="toService"></h5>-->
-                        <h2 class="text-white">
+                        <h2 class="text-blue">
+                            <br>
+                            <br>
                             Localize sua Carga
                         </h2>
                     </div>
@@ -228,10 +257,12 @@
         <!--================ Start Quote Area =================-->
         <section class="quote-area section_gap_top">
             <div class="container">
-                <div class="row justify-content-center text-left section-title-wrap">
+                <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
-                        <h5>Central de Relacionamento</h5>
+                        <h2 class="text-white">Central de Relacionamento</h2>
                         <h4 class="text-white" id="toCR">
+                            <br>
+                            <br>
                             Deixe aqui seu comentário ou mande suas dúvidas que retornaremos o mais breve possível!
                         </h4>
                     </div>
@@ -317,8 +348,15 @@
         <!--================ End Quote Area =================-->
 		
         <!--================ Start Testimonial Area =================-->
-        <section class="testimonial-area white" id="toMission">
-            <div class="container">
+        <section class="testimonial-area white">
+            <div class="container" id="toMission">
+                 <div class="row justify-content-center section-title-wrap">
+                    <div class="col-lg-12">
+                        <h2 class="text-white">
+                            A Empresa
+                        </h2>
+                    </div>
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <carousel 
@@ -399,12 +437,12 @@
                                 <h2>ÁREA DE ATUAÇÃO</h2>
                                 <div>
                                     <p>
-                                        A Expresso MAKTUB é uma empresa sólida. Fundada em 1997 conta com profissionais qualificados e com ampla experiência
-                                        em transporte de cargas.
-                                        Sua matriz administrativa em Belo Horizonte-MG conta com
-                                        unidade operacional e proporciona atendimento para todo o
-                                        estado de Minas Gerais, Goiás, DF, região nordeste e sul do
-                                        país, além da macrorregião de Franca-SP.
+                                        Somos especialistas em soluções de transporte. Nosso foco é a execução de serviços expressos através de pessoal 
+                                        qualificado seja no transporte de transferência, distribuição ou logística.
+                                        A Expresso MAKTUB é uma empresa sólida. Fundada em 1997 conta com profissionais qualificados e
+                                        com ampla experiência em transporte de cargas. Sua matriz administrativa em Contagem-MG conta
+                                        com unidade operacional e proporciona atendimento para todo o estado de Minas Gerais, Goiás, DF,
+                                        Tocantins, região nordeste e sul do país, além da macroregião de Franca – SP.
                                     </p>
                                 </div>
                                 <div class="testi_author d-flex justify-content-center align-items-center">
@@ -429,7 +467,6 @@
                                     <div class="thumb mr-4"><img src="../assets/img/testi-author.png" alt=""></div>
                                 </div>                                
                             </div>
-
                         </carousel>
                     </div>
                 </div>
@@ -442,9 +479,8 @@
             <div class="container">
                 <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
-                        <h5 id="toUnits">Unidades</h5>
-                        <h2>
-                            
+                        <h2 class="text-blue" id="toUnits">
+                            Unidades
                         </h2>
                     </div>
                 </div>
@@ -452,18 +488,17 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-home-blog">
                             <div class="thumb">
-                                <img class="f-img img-fluid mx-auto" src="../assets/img/home-post/blog1.jpg" alt="" />
+                                <img class="f-img img-fluid mx-auto" src="../assets/img/home-post/blog4.jpg" alt="" />
                             </div>
                             <div class="home-blog-box">
                                 <a href="#">
-                                    <h4>Belo Horizonte - MG</h4>
+                                    <h4>Contagem - MG (MATRIZ)</h4>
                                 </a>
-                                <p>
-                                MATRIZ
-								Rua Leiria, 120 - Bairro São Francisco.
+                                <p>                              
+								Rua José Gonçalves Filho, 574 - Vera Cruz
                                 </p>
                                 <div class="bottom d-flex">
-                                    <a href="#">(31)3370-7736 | (31)3370-7738</a>
+                                    <a href="#">(31)2568-4444 | (31)2568-5557</a>
                                 </div>
                             </div>
                         </div>
@@ -479,10 +514,10 @@
                                     <h4>NOVA SERRANA-MG</h4>
                                 </a>
                                 <p>
-                                    Rua João Ferreira dos Santos, 100 - Bairro Jardim São Francisco.
+                                    Rua João Ferreira dos Santos, 123 - Bairro Jardim São Francisco
                                 </p>
                                 <div class="bottom d-flex">
-                                    <a href="#">(37)3225-0007</a>
+                                    <a href="#">(37)3225-0007 | (37)3225-0021</a>
                                 </div>
                             </div>
                         </div>
@@ -498,10 +533,10 @@
                                     <h4>FRANCA-SP</h4>
                                 </a>
                                 <p>
-                                    Rua Alameda das Figueiras, 410 - Bairro Parque das Árvores.
+                                    Rua Antonio Olavo Ferro, 1845 - Polo Industrial
                                 </p>
                                 <div class="bottom d-flex">
-                                    <a href="#">(16)3721-3188 | (16)3703-2408 | (16)99966-2841 | (16)99966-0813</a>
+                                    <a href="#">(16)3723-8257 | (16)3703-2408</a>
                                 </div>
                             </div>
                         </div>
