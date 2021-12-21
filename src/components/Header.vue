@@ -23,7 +23,7 @@
                             <li>
                                 <a href="#">
                                     <i class="fas fa-phone"></i>
-                                    (31)3370-7736 / (31) 3370-7738
+                                    (31)2568-4444 / (31) 2568-7738
                                 </a>
                             </li>
                             <li>
@@ -58,7 +58,7 @@
                                             <a class="nav-link" href="#wrapper-header" v-smooth-scroll>Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link"  href="#toCompany" v-smooth-scroll>Empresa</a>
+                                            <a class="nav-link" href="#toTracking" v-smooth-scroll>Rastreamento</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#toService" v-smooth-scroll>Serviços</a>

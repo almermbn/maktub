@@ -93,7 +93,7 @@
         margin-left: 10px;
     }
 	.header_area .navbar {
-		background: #fff;
+		background: #f8f8f8;
 	}
 	.header_area .navbar .right_nav hr {
 		display: none;
@@ -437,8 +437,8 @@
     /* End End Footer Area css
 	============================================================================================ */
     .section_gap_top {
-        padding-top: 70px;
     }
+    
     .gallery_f_inner {
         max-width: 340px;
         margin: 0px auto -30px;

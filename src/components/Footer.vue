@@ -46,7 +46,7 @@
                     <div class="single-footer-widget">
                         <h6>Matriz</h6>
                         <p>
-                            Rua Leiria, 120 - Bairro São Francisco - Belo Horizonte - MG.
+                            Rua José Gonçalves Filho, 574 - Vera Cruz - Contagem - MG.
                         </p>
                     </div>
                 </div>

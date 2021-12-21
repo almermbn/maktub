@@ -4,48 +4,47 @@
     <div id="wrapper-home">
 
         <section class="service-area section_gap_top slider spacer">
-            <div class="container">
+            <div>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
-                <li data-target="#myCarousel" data-slide-to="1" ></li> 
-                <li data-target="#myCarousel" data-slide-to="2" ></li> 
-                </ol>
-                
-                <div class="carousel-inner" role="listbox">
+                    <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+                    <li data-target="#myCarousel" data-slide-to="1" ></li> 
+                    <li data-target="#myCarousel" data-slide-to="2" ></li> 
+                    </ol>
                     
-                    <div class="carousel-item active">
-                        <a href="#">
-                        <img class="d-block img-fluid" src="../assets/img/maktub.jpg">
-                    </a>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <a href="#">
+                            <img class="d-block img-fluid" src="../assets/img/maktub.jpg">
+                        </a>
                         </div>
-                <div class="carousel-item ">
-                        <a href="#">
-                        <img class="d-block img-fluid" src="../assets/img/eficiencia.jpg">
-                    </a>
+                        <div class="carousel-item ">
+                            <a href="#">
+                                <img class="d-block img-fluid" src="../assets/img/eficiencia.jpg">
+                            </a>
                         </div>
-                <div class="carousel-item ">
-                        <a href="#">
-                        <img class="d-block img-fluid" src="../assets/img/maktub24h.jpg">
-                    </a>
+                        <div class="carousel-item ">
+                            <a href="#">
+                                <img class="d-block img-fluid" src="../assets/img/maktub24h.jpg">
+                            </a>
                         </div>           
-                </div>
+                    </div>
 
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Próximo</span>
-                </a>
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
                 </div>
             </div>
         </section>
 
 
-       <!--================ Start Service Area =================-->
-        <section class="service-area section_gap_top">
+        <!--================ Start Service Area =================-->
+        <section class="service-area section_gap_top" >
             <div class="container">
                 <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
@@ -56,7 +55,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="single-service col-lg-4 col-md-6">
+                    <div class="single-service offset-lg-0 col-lg-4 offset-sm-1 col-sm-10 offset-xs-1 col-xs-10">
                         <div class="thumb">
                             <img class="f-img img-fluid mx-auto" src="../assets/img/service/service1.jpg" alt="" />
                         </div>
@@ -71,7 +70,7 @@
                         </div>
                     </div>
 
-                    <div class="single-service col-lg-4 col-md-6">
+                    <div class="single-service offset-lg-0 col-lg-4 offset-sm-1 col-sm-10 offset-xs-1 col-xs-10">
                         <div class="thumb">
                             <img class="f-img img-fluid mx-auto" src="../assets/img/service/service2.jpg" alt="" />
                         </div>
@@ -88,7 +87,7 @@
                         </div>
                     </div>
 
-                    <div class="single-service col-lg-4 col-md-6">
+                    <div class="single-service offset-lg-0 col-lg-4 offset-sm-1 col-sm-10 offset-xs-1 col-xs-10">
                         <div class="thumb">
                             <img class="f-img img-fluid mx-auto" src="../assets/img/service/service3.jpg" alt="" />
                         </div>
@@ -107,18 +106,16 @@
                 </div>
             </div>
         </section>
+        <!--================ End Service Area =================-->
 
-        <!--================ Service Area =================-->
-           
-        <!--================ End Area Rastreio =================-->
-        
-        <section class="service-area section_gap_top">
+        <!--================ Start Tracking Area =================-->
+        <section class="service-area white" id="toTracking">
             <div class="container">
                 <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
                         <!--<h5 id="toService"></h5>-->
                         <h2 class="text-white">
-                    Localize sua Carga
+                            Localize sua Carga
                         </h2>
                     </div>
                 </div>
@@ -209,9 +206,10 @@
                 </div>
             </div>
         </section>
+        <!--================ End Tracking Area =================-->
 
         <!--================ Start Quote Area =================-->
-        <section class="quote-area">
+        <section class="quote-area section_gap_top">
             <div class="container">
                 <div class="row justify-content-center text-left section-title-wrap">
                     <div class="col-lg-12">
@@ -302,7 +300,7 @@
         <!--================ End Quote Area =================-->
 		
         <!--================ Start Testimonial Area =================-->
-        <section class="testimonial-area section_gap_top" id="toMission">
+        <section class="testimonial-area white" id="toMission">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -420,10 +418,10 @@
                 </div>
             </div>
         </section>
-        <!--================ end Testimonial Area =================-->
+        <!--================ end Testimonial Area =================-->]
 
         <!--================ Start Units Area =================-->
-        <section class="home-blog-area">
+        <section class="home-blog-area section_gap_top">
             <div class="container">
                 <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
@@ -497,7 +495,7 @@
         <!--================ end Units Area =================-->
 
         <!--================ Start CTA Area ================-->
-        <section class="cta_area">
+        <section class="cta_area white">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

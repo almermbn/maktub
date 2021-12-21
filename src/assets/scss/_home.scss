@@ -148,7 +148,7 @@
 
 .spacer {
     @media (max-width: 991px) {
-        margin-top: 70px;
+        margin-top: 93px;
     }
 }
 
@@ -626,7 +626,7 @@
             color: #ffffff;
             &:before {
                 background: $primary-color;
-            }
+        }
             &:after {
                 border-right: 10px solid #ffffff;
                 border-bottom: 10px solid #ffffff;
@@ -650,6 +650,6 @@
     background: white !important;
 }
 
-.spacer {
-    padding: 50px 0 !important;
+.white {
+    background: white;
 }

@@ -25,7 +25,7 @@ Vue.use(vueSmoothScroll)
 Vue.use(VueTheMask)
 
 Vue.config.productionTip = false;
-Vue.prototype.$remoteUrl = "https://expressomaktub.com/";
+Vue.prototype.$remoteUrl = "https://expressomaktub.log.br/";
 
 
 /* eslint-disable no-new */
