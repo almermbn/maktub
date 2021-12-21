@@ -58,16 +58,16 @@
                                             <a class="nav-link" href="#wrapper-header" v-smooth-scroll>Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#toTracking" v-smooth-scroll>Rastreamento</a>
+                                            <a class="nav-link" href="#toService" v-smooth-scroll>Serviços</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#toService" v-smooth-scroll>Serviços</a>
+                                            <a class="nav-link" href="#toTracking" v-smooth-scroll>Rastreamento</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#toCR" v-smooth-scroll>Central de Relacionamento</a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link" href="#toMission" v-smooth-scroll>Missão</a>
+                                            <a class="nav-link" href="#toMission" v-smooth-scroll>A Empresa</a>
                                         </li>
                                         <li class="nav-item ">
                                             <a class="nav-link" href="#toUnits" v-smooth-scroll>Unidades</a>

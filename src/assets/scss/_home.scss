@@ -185,12 +185,9 @@
         background: #d3d7e2;
         @include transition();
         border: 1px solid rgba(#ffffff, .3);
-        padding: 50px 50px 45px;
+        padding: 20px;
         margin-bottom: 30px;
-        @media (max-width: 767px) {
-            padding: 50px 20px 45px;
-        }
-       
+        min-height: 352px;   
     }
     .thumb {
         overflow: hidden;
@@ -669,5 +666,22 @@
     }
     @media (max-width: 591px) {
         grid-template-columns: 1fr;
+    }
+}
+
+.title-wrapper {
+    margin-top: 80px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-size {
+    font-size: 42px;
+}
+
+.tracking-offset {
+    padding-top: 80px;
+    @media (max-width: 520px) {
+        padding-top: 0;
     }
 }

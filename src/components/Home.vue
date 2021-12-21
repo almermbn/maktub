@@ -56,12 +56,11 @@
 
 
         <!--================ Start Service Area =================-->
-        <section class="service-area section_gap_top" >
+        <section class="service-area section_gap_top" id="toService">
             <div class="container">
                 <div class="row justify-content-center section-title-wrap">
                     <div class="col-lg-12">
-                        <!--<h5 id="toService"></h5>-->
-                        <h2 id="toService" class="text-white">
+                        <h2 class="text-white">
                     Serviços
                         </h2>
                     </div>
@@ -95,12 +94,7 @@
                             <p>
                                 Destinado a distribuição de mercadorias através do uso de veículos leves, que garantem a rapidez
                                 necessária para a sua operação.
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                               
                             </p>
                         </div>
                     </div>
@@ -116,13 +110,7 @@
                             <p>
                                 Nossa expertise em distribuição assegura aos clientes de E-COMMERCE a confiabilidade e a certeza
                                 de um atendimento qualificado.
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+    
                             </p>
                         </div>
                     </div>
@@ -137,13 +125,7 @@
                             </h3>
                             <p>
                                 Possuímos toda a estrutura, segurança e licença para armazenar e transportar medicamentos.
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>                   
+                  
                             </p>
                         </div>
                     </div>
@@ -155,97 +137,74 @@
         <!--================ Start Tracking Area =================-->
         <section class="service-area white" id="toTracking">
             <div class="container">
-                <div class="row justify-content-center section-title-wrap">
+                <div class="row justify-content-center section-title-wrap tracking-offset">
                     <div class="col-lg-12">
-                        <!--<h5 id="toService"></h5>-->
                         <h2 class="text-blue">
-                            <br>
-                            <br>
                             Localize sua Carga
                         </h2>
                     </div>
                 </div>
                 <div class="row tracking">
                     <div class="single-service col-lg-4 col-md-6">
-
                         <div class="service-box">
- 					<form name="form2" action="https://www.aguiasul.com.br/novo/redireciona.php" method="post" target="_blank"> 
- 
-						<h3 class="text-center"><img src="../assets/img/localizar.png" alt="Localize sua carga"> Por REMETENTE: </h3>
-						<p>
-							<div class="form-group">
-								<label for="exampleInputPassword1">Nota Fiscal N:</label>
-								<br>
-								<input type="text" name="NR2" id="NR2" required class="form-control" >
-							</div>
-						
-						<p>
-							<div class="form-group">
-								<label for="exampleInputPassword1">CNPJ do Remetente:</label>
-								<br>
-								<input type="text" maxLength=14 id="cnpj2" name="cnpj2" required class="form-control" >
-							</div>
-						
-						<p>
-							<div class="form-group" style="display:none">
-								<label for="exampleInputPassword1">Senha (Opcional)</label>
-								<br>
-								<input type="password" maxLength=58 name="chave" id="chave" class="form-control" >
-							</div>
-						
- 
-						<input type="hidden" name="sigla_emp" value="AGS">
-						<p class="text-center">
-							<button type="submit" class="btn btn-danger btn-sm">Localizar</button>
-						</p>
-						<p>
-							<img src="../assets/img/caixa.png" class="img-fluid">
-						</p>
+                            <form name="form2" method="post" target="_blank"> 
+        
+                                <h3 class="text-center"><img src="../assets/img/localizar.png" alt="Localize sua carga"> Por REMETENTE: </h3>
+                                <p>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Nota Fiscal N:</label>
+                                        <br>
+                                        <input type="text" name="NR2" id="NR2" required class="form-control" v-model="inputNotaFiscalRemetente">
+                                    </div>
+                                
+                                <p>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">CNPJ do Remetente:</label>
+                                        <br>
+                                        <input type="text" maxLength=14 id="cnpj2" name="cnpj2" required class="form-control" v-model="inputCnpjRemetente">
+                                    </div>
+                                <p>
+                                    
+                                <p class="text-center">
+                                    <button type="button" @click="findBySender" class="btn btn-danger btn-sm">Localizar</button>
+                                </p>
+                                <p>
+                                    <img src="../assets/img/caixa.png" class="img-fluid">
+                                </p>
 
-					</form>
-                         
+                            </form>
                         </div>
                     </div>
 
                     <div class="single-service col-lg-4 col-md-6">
                         <div class="service-box">
-						<form name="form1" action="https://ssw.inf.br/2/resultSSW_dest_nro" method="post" target="_blank">
-					
-							<h3 class="text-center"><img src="../assets/img/localizar.png" alt="Localize sua carga"> Por DESTINATÁRIO:</h3>
-							<p>
-								<div class="form-group">
-									<label for="exampleInputPassword1">Nota Fiscal N:</label>
-									<br>
-									<input type="text" id="NR" name="NR" required class="form-control" >
-								</div>
-							
-							<p>
-								<div class="form-group">
-									<label for="exampleInputPassword1">CNPJ do Destinatário:</label>
-									<br>
-									<input type="text" maxLength=14 id="cnpjdest" name="cnpjdest" required class="form-control" >
-								</div>
-							
-							<p>
-								<div class="form-group" style="display:none">
-									<label for="exampleInputPassword1">Senha (Opcional)</label>
-									<br>
-									<input type="password" maxLength=58 id=chave name=chave class="form-control" >
-								</div>
-							
- 
-							<p class="text-center">
-								<button type="submit" class="btn btn-danger btn-sm">Localizar</button>
-							</p>
-							<p>
-								<img src="../assets/img/caixa.png" class="img-fluid">
-							</p>
-
-						</form>   
-
+                            <form name="form1" action="https://ssw.inf.br/2/resultSSW_dest_nro" method="post" target="_blank">
+                        
+                                <h3 class="text-center"><img src="../assets/img/localizar.png" alt="Localize sua carga"> Por DESTINATÁRIO:</h3>
+                                <p>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Nota Fiscal N:</label>
+                                        <br>
+                                        <input type="text" id="NR" name="NR" required class="form-control" >
+                                    </div>
                                 
+                                <p>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">CNPJ do Destinatário:</label>
+                                        <br>
+                                        <input type="text" maxLength=14 id="cnpjdest" name="cnpjdest" required class="form-control" >
+                                    </div>
                                 
-                           
+                                <p>
+    
+                                <p class="text-center">
+                                    <button type="submit" class="btn btn-danger btn-sm">Localizar</button>
+                                </p>
+                                <p>
+                                    <img src="../assets/img/caixa.png" class="img-fluid">
+                                </p>
+
+                            </form>   
                         </div>
                     </div>
 
@@ -350,9 +309,9 @@
         <!--================ Start Testimonial Area =================-->
         <section class="testimonial-area white">
             <div class="container" id="toMission">
-                 <div class="row justify-content-center section-title-wrap">
+                 <div class="row justify-content-center title-wrapper">
                     <div class="col-lg-12">
-                        <h2 class="text-white">
+                        <h2 class="text-blue title-size">
                             A Empresa
                         </h2>
                     </div>
@@ -585,7 +544,9 @@
                 description: '',
                 phone: '',
                 company: '',
-                reg: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/
+                reg: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/,
+                inputNotaFiscalRemetente: null,
+                inputCnpjRemetente: null
             }
         },
         methods: {
@@ -641,6 +602,12 @@
             },
             isEmailValid: function() {
                 return this.email == "" ? false : this.reg.test(this.email) ? true : false;
+            },
+            findBySender(){
+                window.location = `${'https://ssw.inf.br/app/tracking/' + this.inputNotaFiscalRemetente+'/'+this.inputCnpjRemetente}`
+            },
+            findByRecipient(){
+
             }
         }
     }
