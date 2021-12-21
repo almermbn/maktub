@@ -177,6 +177,10 @@
 }
 
 .single-service {
+    @media (max-width: 591px) {
+        max-width: 260px;
+        margin: 0 auto;
+    }
     .service-box {
         background: #d3d7e2;
         @include transition();
@@ -186,6 +190,7 @@
         @media (max-width: 767px) {
             padding: 50px 20px 45px;
         }
+       
     }
     .thumb {
         overflow: hidden;
@@ -652,4 +657,17 @@
 
 .white {
     background: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+    @media (max-width: 991px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 591px) {
+        grid-template-columns: 1fr;
+    }
 }

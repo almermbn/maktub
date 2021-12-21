@@ -54,8 +54,8 @@
                         </h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="single-service offset-lg-0 col-lg-4 offset-sm-1 col-sm-10 offset-xs-1 col-xs-10">
+                <div class="row grid">
+                    <div class="single-service ">
                         <div class="thumb">
                             <img class="f-img img-fluid mx-auto" src="../assets/img/service/service1.jpg" alt="" />
                         </div>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
 
-                    <div class="single-service offset-lg-0 col-lg-4 offset-sm-1 col-sm-10 offset-xs-1 col-xs-10">
+                    <div class="single-service">
                         <div class="thumb">
                             <img class="f-img img-fluid mx-auto" src="../assets/img/service/service2.jpg" alt="" />
                         </div>
@@ -87,7 +87,24 @@
                         </div>
                     </div>
 
-                    <div class="single-service offset-lg-0 col-lg-4 offset-sm-1 col-sm-10 offset-xs-1 col-xs-10">
+                    <div class="single-service ">
+                        <div class="thumb">
+                            <img class="f-img img-fluid mx-auto" src="../assets/img/service/service3.jpg" alt="" />
+                        </div>
+                        <div class="service-box">
+                            <h3>
+                                E-COMMERCE
+                            </h3>
+                            <p>
+                                Nossa expertise em distribuição assegura aos clientes de E-COMMERCE a confiabilidade e a certeza
+                                de um atendimento qualificado.
+                            
+                            
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="single-service ">
                         <div class="thumb">
                             <img class="f-img img-fluid mx-auto" src="../assets/img/service/service3.jpg" alt="" />
                         </div>
