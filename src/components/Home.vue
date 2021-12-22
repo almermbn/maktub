@@ -604,7 +604,7 @@
                 return this.email == "" ? false : this.reg.test(this.email) ? true : false;
             },
             findBySender(){
-                window.location = `${'https://ssw.inf.br/app/tracking/' + this.inputNotaFiscalRemetente+'/'+this.inputCnpjRemetente}`
+                window.location = `${'https://ssw.inf.br/app/tracking/' + this.inputCnpjRemetente+'/'+this.inputNotaFiscalRemetente}`
             },
             findByRecipient(){
 
