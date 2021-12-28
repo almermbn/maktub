@@ -75,7 +75,7 @@
                                 TRANSPORTE DE CARGA FRACIONADA OU LOTAÇÃO
                             </h3>
                             <p>
-                                Dispomos de uma frota moderna para distribuição de mercadorias e atendimento nas transferência
+                                Dispomos de uma frota moderna para distribuição de mercadorias e atendimento nas transferências
                                 de produtos entre unidades e centros de distribuição em todos os estados da federação.
                                 <br>
                                 <br>
