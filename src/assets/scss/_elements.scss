@@ -1430,6 +1430,43 @@ h6 {
   right: 20px;
 }
 
+.card {
+  background-color: #fdfdfd; 
+  color: #0B1A2F;
+  max-width: 320px;
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+  border: 1px solid #eee; 
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
 
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
 
+.cards-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1200px;   
+  margin: 0 auto;     
+  justify-content: center; 
+}
 
+@media (max-width: 900px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr; 
+	justify-content: center;
+  }
+  .card {
+    margin: 0 auto;
+  }
+}

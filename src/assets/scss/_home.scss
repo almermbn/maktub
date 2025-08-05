@@ -182,7 +182,7 @@
         margin: 0 auto;
     }
     .service-box {
-        background: #d3d7e2;
+        background: #13233C;
         @include transition();
         border: 1px solid rgba(#ffffff, .3);
         padding: 20px;
@@ -684,4 +684,29 @@
     @media (max-width: 520px) {
         padding-top: 0;
     }
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('./assets/img/hero.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+
+
+
+.hero-content {
+  z-index: 1;
+  padding: 20px;
+  width: 100%;
 }
