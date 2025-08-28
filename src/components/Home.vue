@@ -2,7 +2,6 @@
   <div id="wrapper-home">
     <section class="service-area section_gap_top slider spacer">
       <div class="hero-content hero">
-          <h1>Logística Boaretto</h1>
       </div>
     </section>
 
