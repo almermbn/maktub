@@ -1,7 +1,7 @@
 {
-  "name": "maktub",
+  "name": "boaretto",
   "version": "1.0.0",
-  "description": "maktub project",
+  "description": "boaretto project",
   "author": "Almer Nakano <almer.nakano@gmail.com>",
   "private": true,
   "scripts": {
@@ -84,14 +84,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "main": ".postcssrc.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/almermbn/maktub.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/almermbn/maktub/issues"
-  },
-  "homepage": "https://github.com/almermbn/maktub#readme"
+  "main": ".postcssrc.js"
 }

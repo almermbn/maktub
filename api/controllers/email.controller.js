@@ -16,8 +16,8 @@ exports.send_email = function(req, res) {
     var transporter = nodemailer.createTransport({
     service: 'gmail',
         auth: {
-            user: 'expressomaktub2019@gmail.com',
-            pass: 'maktub2019'
+            user: 'logisticaboaretto@gmail.com',
+            pass: 'boaretto2025'
         },
         secure: false,
         tls: {
@@ -34,8 +34,8 @@ exports.send_email = function(req, res) {
     var contentWrapper = header + subheader + body;
 
     var mailOptions = {
-        from: 'expressomaktub2019@gmail.com',
-        to: 'comercialbhz@expressomaktub.com.br',
+        from: 'logisticaboaretto@gmail.com',
+        to: 'logisticaboaretto@gmail.com',
         subject: subject,
         html: contentWrapper
     };
@@ -49,8 +49,8 @@ exports.send_email = function(req, res) {
     });
 
     var mailOptions2 = {
-        from: 'expressomaktub2019@gmail.com',
-        to: 'atendimentobhz@expressomaktub.com.br',
+        from: 'logisticaboaretto@gmail.com',
+        to: 'logisticaboaretto@gmail.com',
         subject: subject,
         html: contentWrapper
     };

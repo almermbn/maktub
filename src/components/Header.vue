@@ -29,7 +29,7 @@
                             <li>
                                 <a href="#">
                                     <i class="fas fa-envelope"></i>
-                                    comercialbhz@expressomaktub.com.br
+                                    comercialbhz@boarettologistica.com.br
                                 </a>
                             </li>
                         </ul>

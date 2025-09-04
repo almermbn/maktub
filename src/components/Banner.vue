@@ -15,7 +15,7 @@
                                     Transportando com segurança por todo o Brasil!
                                 </p>
                                 <span class="main_btn mt-4 mt-md-0" href="#">
-                                    <a href="index.html" class="text-white">Maktub</a> 
+                                    <a href="index.html" class="text-white">Boaretto</a> 
                                     <i class="fa fa-arrow-right mx-2"></i>
                                     <a href="about.html" class="text-white"> {{ title }}</a> 
                                 </span>

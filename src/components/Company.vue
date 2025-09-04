@@ -55,19 +55,19 @@
                 <div class="col-lg-5 offset-md-0 col-md-12 text-left section-title-wrap">
                     <h5>Quem Somos</h5>
                     <h2>
-                        EXPRESSO MAKTUB
+                        Logistica Boaretto
                     </h2>
 
                     <h4>Transportando com segurança por todo o Brasil!</h4>
                     <p>
-                        A Expresso MAKTUB é uma empresa sólida. Fundada em 1997 conta com profissionais qualificados e com ampla experiência em transporte de cargas. Sua matriz administrativa em Belo Horizonte – MG conta com unidade operacional e proporciona atendimento para todo o estado de Minas Gerais, Goiás, DF, região nordeste e sul do país, além da macrorregião de Franca – SP.
+                        A Logistica Boaretto é uma empresa sólida. Fundada em 1997 conta com profissionais qualificados e com ampla experiência em transporte de cargas. Sua matriz administrativa em Belo Horizonte – MG conta com unidade operacional e proporciona atendimento para todo o estado de Minas Gerais, Goiás, DF, região nordeste e sul do país, além da macrorregião de Franca – SP.
 
 						Nossas unidades de negócios em Franca – SP e Nova Serrana – MG, proporcionam atendimento em 24h para entregas de cargas originadas/recebidas em Belo Horizonte.
 
-						A Expresso MAKTUB é especialista em soluções de transporte, nosso foco é a execução de serviços expressos. 
+						A Logistica Boaretto é especialista em soluções de transporte, nosso foco é a execução de serviços expressos. 
 
 						Com uma frota monitorada 24h, especializada e pronta para atender às mais diversas necessidades de nossos clientes, oferecemos soluções em logística e distribuição de cargas.
-						Na MAKTUB você encontra atendimento personalizado por meio de estrutura própria e alianças operacionais, permitindo otimização de tempo e redução de custos nas suas operações.
+						Na Boaretto você encontra atendimento personalizado por meio de estrutura própria e alianças operacionais, permitindo otimização de tempo e redução de custos nas suas operações.
 
 						Nossa equipe, tecnologia, experiência e recursos se conectam para cumprir em tempo nossa missão, para que nossos clientes possam se sentir tranquilos de que seus produtos serão transportados de forma ótima e segura ao seu destino.
 .
