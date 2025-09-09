@@ -1,8 +1,7 @@
 <template>
   <div id="wrapper-home">
     <section class="service-area section_gap_top slider spacer">
-      <div class="hero-content hero">
-      </div>
+      <div class="hero-content hero"></div>
     </section>
 
     <!--================ Start Service Area =================-->
@@ -105,7 +104,7 @@
                 </h3>
                 <p></p>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Nota Fiscal N:</label>
+                  <label for="NR2">Nota Fiscal N:</label>
                   <br />
                   <input
                     type="text"
@@ -119,7 +118,7 @@
 
                 <p></p>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">CNPJ do Remetente:</label>
+                  <label for="cnpj2">CNPJ do Remetente:</label>
                   <br />
                   <input
                     type="text"
@@ -166,7 +165,7 @@
                 </h3>
                 <p></p>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Nota Fiscal N:</label>
+                  <label for="NR">Nota Fiscal N:</label>
                   <br />
                   <input
                     type="text"
@@ -179,7 +178,7 @@
 
                 <p></p>
                 <div class="form-group">
-                  <label for="exampleInputPassword1"
+                  <label for="cnpjdest"
                     >CNPJ do Destinatário:</label
                   >
                   <br />
@@ -582,7 +581,17 @@
       </div>
     </section>
     <!--================ End CTA Area ================-->
+
+    <div class="whats-contact bounce">
+      <a href="https://api.whatsapp.com/send?phone=393661273612" target="_blank">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#25D366" d="M12 0C5.371 0 0 5.372 0 12c0 2.116.553 4.095 1.514 5.839L0 24l6.427-1.502C8.164 23.447 10.142 24 12.258 24 18.887 24 24 18.628 24 12 24 5.372 18.887 0 12 0z"/>
+          <path fill="#fff" d="M17.607 14.012c-.295-.147-1.748-.863-2.018-.963-.27-.1-.466-.148-.663.148s-.761.963-.933 1.162c-.172.2-.345.223-.64.074-.295-.148-1.244-.458-2.371-1.463-.876-.78-1.467-1.744-1.64-2.04-.172-.295-.018-.454.13-.602.134-.133.295-.346.443-.519.148-.172.197-.295.295-.492.1-.197.05-.37-.025-.519-.074-.148-.663-1.593-.908-2.19-.24-.575-.486-.497-.663-.507l-.567-.01c-.197 0-.518.074-.79.37s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.148.197 2.1 3.2 5.076 4.487.71.306 1.263.49 1.694.627.712.227 1.36.195 1.872.118.571-.085 1.748-.714 1.996-1.406.248-.693.248-1.288.173-1.406-.074-.118-.27-.197-.566-.345z"/>
+        </svg>
+    </a>
+    </div>
   </div>
+  
 </template>
 
 <script>

@@ -1,5 +1,6 @@
 /* Start About Area css
 =========================================================================================== */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .feature-area {
     padding-bottom: 80px;
@@ -706,4 +707,41 @@
   z-index: 1;
   padding: 20px;
   width: 100%;
+}
+
+.whats-contact {
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:40px;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 1px 1px 25px #999;
+    z-index:100;
+}
+
+.my-float {
+	margin-top:16px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-12px);
+    }
 }
